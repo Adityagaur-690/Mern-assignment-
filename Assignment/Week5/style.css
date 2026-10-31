@@ -1,0 +1,45 @@
+:root {
+    --primary-color: #243b64;
+    --secondary-color: #e1eaf8;
+    --background-color: #f4f7fb;
+    --text-color: #333333;
+    --spacing: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: var(--primary-color);
+    font-size: 36px;
+}
+
+#hero {
+    background-color: var(--secondary-color);
+    padding: var(--spacing);
+}
+
+.card {
+    background-color: white;
+    padding: var(--spacing);
+    margin: var(--spacing) 0;
+    border-radius: 8px;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
